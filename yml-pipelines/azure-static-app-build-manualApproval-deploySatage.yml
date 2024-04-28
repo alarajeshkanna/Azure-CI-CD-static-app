@@ -32,7 +32,7 @@ stages:
     timeoutInMinutes: 10 # job times out in 3 days
     steps:   
     - task: ManualValidation@0
-      timeoutInMinutes: 5 # task times out in 1 day
+      timeoutInMinutes: 6 # task times out in 1 day
       inputs:
         notifyUsers: |
           alarajeshkanna@gmail.com
